@@ -23,7 +23,7 @@
         "prime_contractor": "PATRICK JONIN",
         "lighting_engineer": "L'OBSERVATOIRE INTERNATIONAL",
         "lighting_type": "Eclairage intérieur",
-        "images": ["images/bayerischerhof1.jpg", "images/bayerischerhof2.jpg", "images/bayerischerhof3.png", "images/bayerischerhof4.png", "images/bayerischerhof5.png"]
+        "images": ["images/bayerischerHof1.jpg", "images/bayerischerHof2.jpg", "images/bayerischerHof3.png", "images/bayerischerHof4.png", "images/bayerischerhof5.png"]
     },
     {
         "id": "connaught-hotel",
