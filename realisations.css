@@ -139,7 +139,6 @@ header h1 {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    transition: all ease;
 }
 
 .grid-item:hover .infos img {
