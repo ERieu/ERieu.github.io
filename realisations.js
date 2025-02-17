@@ -217,18 +217,22 @@ document.addEventListener('DOMContentLoaded', function() {
                 gridContainer.appendChild(gridItem);
 
                 // Ajouter un écouteur d'événement pour le hover
-                gridItem.addEventListener('mouseenter', function() {
-                    infosButtons.classList.add('no-click');
-                    setTimeout(() => {
-                        infosButtons.classList.remove('no-click');
-                    }, 200); // 200 millisecondes de délai
-                });
+                attachHoverEvent(gridItem, infosButtons);
             });
 
             // Initialiser le reste du script pour le slider et les modales
             initSliderAndModals();
         })
         .catch(error => console.error('Erreur lors du chargement du fichier JSON:', error));
+
+    function attachHoverEvent(gridItem, infosButtons) {
+        gridItem.addEventListener('mouseenter', function() {
+            infosButtons.classList.add('no-click');
+            setTimeout(() => {
+                infosButtons.classList.remove('no-click');
+            }, 100); // 500 millisecondes de délai
+        });
+    }
 
     function initSliderAndModals() {
         const modal = document.getElementById('image-modal');
