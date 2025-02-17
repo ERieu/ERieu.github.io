@@ -62,7 +62,7 @@ header h1 {
     scrollbar-color: transparent transparent;
     height: 100%;
     transition: 1s ease-in-out;
-    touch-action: none;
+    touch-action: cross-slide-x
 }
 
 .slider img {
